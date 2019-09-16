@@ -15,6 +15,11 @@ uint256 CBlockHeader::GetHash() const
     return SerializeHash(*this);
 }
 
+uint256 CBlockHeader::GetPoWHash() const
+{
+    return HashQubit(BEGIN(nVersion), END(nNonce));
+}
+
 std::string CBlock::ToString() const
 {
     std::stringstream s;
