@@ -47,7 +47,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Slice"
-#define QAPP_ORG_DOMAIN "slicex.com"
+#define QAPP_ORG_DOMAIN "slicex.cc"
 #define QAPP_APP_NAME_DEFAULT "Slice-Qt"
 #define QAPP_APP_NAME_TESTNET "Slice-Qt-testnet"
 #define QAPP_APP_NAME_REGTEST "Slice-Qt-regtest"
