@@ -558,7 +558,7 @@ void SetupServerArgs()
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/slicecoincore/slice>";
-    const std::string URL_WEBSITE = "<https://slicecoincore.com/>";
+    const std::string URL_WEBSITE = "<https://slicex.cc/>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i").translated, 2019, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +

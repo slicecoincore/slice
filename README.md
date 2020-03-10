@@ -12,7 +12,7 @@ out collectively by the network. Slice is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Slice software, see [https://slicecoincore.com](https://slicecoincore.com).
+the Slice software, see [https://slicex.xx](https://slicex.cc).
 
 ***License***
 -------
