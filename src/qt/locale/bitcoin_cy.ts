@@ -66,8 +66,8 @@
         <translation>Derbyn cyfeiriadau</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Rhain ydi eich cyfeiriadau Bitcoin ar gyfer gyrru taliadau. Gwnewch yn sicr o'r swm a'r cyfeiriad derbyn cyn gyrru arian.</translation>
+        <source>These are your slice addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Rhain ydi eich cyfeiriadau slice ar gyfer gyrru taliadau. Gwnewch yn sicr o'r swm a'r cyfeiriad derbyn cyn gyrru arian.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -156,8 +156,8 @@
         <translation>Cadarnhau amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Rhybudd: Os ydych yn amgryptio'r waled ag yn colli'r cyfrinair, byddwch yn &lt;b&gt; COLLI EICH BITCOINS I GYD &lt;b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLICE&lt;/b&gt;!</source>
+        <translation>Rhybudd: Os ydych yn amgryptio'r waled ag yn colli'r cyfrinair, byddwch yn &lt;b&gt; COLLI EICH SLICE I GYD &lt;b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -318,8 +318,8 @@
         <translation>Ailfynegi y blociau ar ddisg...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Anfon arian i gyfeiriad Bitcoin</translation>
+        <source>Send coins to a slice address</source>
+        <translation>Anfon arian i gyfeiriad slice</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,12 +358,12 @@
         <translation>Amgryptio'r allweddi preifat sy'n perthyn i'ch waled</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Arwyddo negeseuon gyda eich cyfeiriadau Bitcoin i brofi mae chi sy'n berchen arnynt</translation>
+        <source>Sign messages with your slice addresses to prove you own them</source>
+        <translation>Arwyddo negeseuon gyda eich cyfeiriadau slice i brofi mae chi sy'n berchen arnynt</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau Bitcoin penodol</translation>
+        <source>Verify messages to ensure they were signed with specified slice addresses</source>
+        <translation>Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau slice penodol</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -382,8 +382,8 @@
         <translation>Bar offer tabiau</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Gofyn taliadau (creu côd QR a bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and slice: URIs)</source>
+        <translation>Gofyn taliadau (creu côd QR a slice: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -394,8 +394,8 @@
         <translation>Dangos rhestr o gyfeiriadau derbyn a labelau wedi eu defnyddio</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Agor Bitcoin: URI neu ofyn taliad</translation>
+        <source>Open a slice: URI or payment request</source>
+        <translation>Agor slice: URI neu ofyn taliad</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -534,8 +534,8 @@
         <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Mae gwall angheuol wedi digwydd. Ni all Bitcoin barhau'n ddiogel ac mae'n cau lawr.</translation>
+        <source>A fatal error occurred. slice can no longer continue safely and will quit.</source>
+        <translation>Mae gwall angheuol wedi digwydd. Ni all slice barhau'n ddiogel ac mae'n cau lawr.</translation>
     </message>
 </context>
 <context>
@@ -651,8 +651,8 @@
         <translation>Croeso</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Slice</source>
+        <translation>Slice</translation>
     </message>
     <message>
         <source>Error</source>

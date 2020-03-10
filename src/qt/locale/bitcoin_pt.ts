@@ -66,12 +66,12 @@
         <translation>Endereços de receção</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Bitcoin para enviar pagamentos. Verifique sempre o valor e o endereço de receção antes de enviar moedas.</translation>
+        <source>These are your slice addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços slice para enviar pagamentos. Verifique sempre o valor e o endereço de receção antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.</source>
-        <translation>Estes são os endereços Bitcoin para receiver pagamentos. Use o botão "Criar novo endereço para receiver" para crier novo endereço.</translation>
+        <source>These are your slice addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.</source>
+        <translation>Estes são os endereços slice para receiver pagamentos. Use o botão "Criar novo endereço para receiver" para crier novo endereço.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: se encriptar a sua carteira e perder a sua frase de segurnça, &lt;b&gt;PERDERÁ TODOS OS SEUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLICE&lt;/b&gt;!</source>
+        <translation>Aviso: se encriptar a sua carteira e perder a sua frase de segurnça, &lt;b&gt;PERDERÁ TODOS OS SEUS SLICE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Insira a password antiga e a nova para a carteira.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Lembra se que encrostar a sua carteira não o pode defender na totalidade os seus bitcoins de serem roubados por um malware que possa infectar o seu computador.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your slice from being stolen by malware infecting your computer.</source>
+        <translation>Lembra se que encrostar a sua carteira não o pode defender na totalidade os seus slice de serem roubados por um malware que possa infectar o seu computador.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -362,8 +362,8 @@
         <translation>Proxy está &lt;b&gt;ativado&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar moedas para um endereço Bitcoin</translation>
+        <source>Send coins to a slice address</source>
+        <translation>Enviar moedas para um endereço slice</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -406,12 +406,12 @@
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Assine as mensagens com os seus endereços Bitcoin para provar que é o proprietário dos mesmos</translation>
+        <source>Sign messages with your slice addresses to prove you own them</source>
+        <translation>Assine as mensagens com os seus endereços slice para provar que é o proprietário dos mesmos</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Bitcoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified slice addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço slice especificado</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -430,8 +430,8 @@
         <translation>Barra de ferramentas dos separadores</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and slice: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e slice: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -442,16 +442,16 @@
         <translation>Mostrar a lista de etiquetas e endereços de receção usados</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir URI bitcoin: ou pedido de pagamento</translation>
+        <source>Open a slice: URI or payment request</source>
+        <translation>Abrir URI slice: ou pedido de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opções da linha de &amp;comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Bitcoin</numerusform><numerusform>%n ligações ativas à rede Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to slice network</source>
+        <translation><numerusform>%n ligação ativa à rede slice</numerusform><numerusform>%n ligações ativas à rede slice</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -518,7 +518,7 @@
         <translation>Fechar a carteira</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible slice command-line options</source>
         <translation>Mostrar a mensagem de ajuda %1 para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
     <message>
@@ -630,8 +630,8 @@
         <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O Bitcoin não pode continuar com segurança e irá fechar.</translation>
+        <source>A fatal error occurred. slice can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O slice não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -874,8 +874,8 @@
         <translation>Editar o endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço bitcoin válido.</translation>
+        <source>The entered address "%1" is not a valid slice address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço slice válido.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -975,8 +975,8 @@
         <translation>Utilizar uma pasta de dados personalizada:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Slice</source>
+        <translation>Slice</translation>
     </message>
     <message>
         <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
@@ -991,8 +991,8 @@
         <translation>Aproximadamente %1 GB de dados irão ser guardados nesta pasta.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 irá descarregar e armazenar uma cópia da cadeia de blocos da Bitcoin.</translation>
+        <source>%1 will download and store a copy of the slice block chain.</source>
+        <translation>%1 irá descarregar e armazenar uma cópia da cadeia de blocos da slice.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1026,12 +1026,12 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the slice network, as detailed below.</source>
         <translation>Transações recentes podem não ser visíveis por agora, portanto o saldo da sua carteira pode estar incorreto. Esta informação será corrigida quando a sua carteira acabar de sincronizar com a rede, como está explicado em baixo.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Tentar enviar bitcoins que estão afetadas por transações ainda não exibidas não será aceite pela rede.</translation>
+        <source>Attempting to spend slice that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Tentar enviar slice que estão afetadas por transações ainda não exibidas não será aceite pela rede.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1232,8 +1232,8 @@
         <translation>&amp;Gastar troco não confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente bitcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <source>Automatically open the slice client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir a porta do cliente slice automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1248,8 +1248,8 @@
         <translation>Permitir ligações de "a receber"</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede da Bitcoin através dum proxy SOCLS5.</translation>
+        <source>Connect to the slice network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede da slice através dum proxy SOCLS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1284,8 +1284,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Ligar à rede Bitcoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
+        <source>Connect to the slice network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Ligar à rede slice através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1395,8 +1395,8 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Bitcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the slice network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede slice depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1470,16 +1470,16 @@
         <translation>Erro do pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Impossível iniciar o controlador de bitcoin: click-to-pay</translation>
+        <source>Cannot start slice: click-to-pay handler</source>
+        <translation>Impossível iniciar o controlador de slice: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Manuseamento de URI</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'bitcoin://' não é um URI válido. Utilize 'bitcoin:'.</translation>
+        <source>'slice://' is not a valid URI. Use 'slice:' instead.</source>
+        <translation>'slice://' não é um URI válido. Utilize 'slice:'.</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -1506,8 +1506,8 @@
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI não foi lido corretamente! Isto pode ser causado por um endereço Bitcoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid slice address or malformed URI parameters.</source>
+        <translation>URI não foi lido corretamente! Isto pode ser causado por um endereço slice inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1608,8 +1608,8 @@
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Introduza um endereço Bitcoin (ex. %1)</translation>
+        <source>Enter a slice address (e.g. %1)</source>
+        <translation>Introduza um endereço slice (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2069,8 +2069,8 @@
         <translation>&amp;Mensagem:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the slice network.</source>
+        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede slice.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2342,7 +2342,7 @@ Nota: como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por u
         <translation>Lixo:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for slice transactions than the network can process.</source>
         <translation>Quando o volume de transações é maior que o espaço nos blocos, os mineradores, bem como os nós de retransmissão, podem impor uma taxa mínima. Pagar apenas esta taxa mínima é muito bom, mas esteja ciente que isso pode resultar numa transação nunca confirmada, uma vez que há mais pedidos para transações do que a rede pode processar.</translation>
     </message>
     <message>
@@ -2499,8 +2499,8 @@ Nota: como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por u
         <translation><numerusform>Estimado para iniciar a confirmação dentro de %n bloco.</numerusform><numerusform>Estimado para iniciar a confirmação dentro de %n blocos.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Aviso: endereço Bitcoin inválido</translation>
+        <source>Warning: Invalid slice address</source>
+        <translation>Aviso: endereço slice inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2542,8 +2542,8 @@ Nota: como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por u
         <translation>Este é um pagamento normal.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>O endereço Bitcoin para enviar o pagamento</translation>
+        <source>The slice address to send the payment to</source>
+        <translation>O endereço slice para enviar o pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2562,8 +2562,8 @@ Nota: como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por u
         <translation>Remover esta entrada</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida ao valor que está a ser enviado. O destinatário irá receber menos bitcoins do que as que inseridas no campo do valor. Se estiverem selecionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less slice than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>A taxa será deduzida ao valor que está a ser enviado. O destinatário irá receber menos slice do que as que inseridas no campo do valor. Se estiverem selecionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2590,8 +2590,8 @@ Nota: como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por u
         <translation>Introduza uma etiqueta para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI bitcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Bitcoin.</translation>
+        <source>A message that was attached to the slice: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the slice network.</source>
+        <translation>Uma mensagem que estava anexada ao URI slice: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede slice.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2635,12 +2635,12 @@ Nota: como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por u
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive slice sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo de modo a assinar a sua identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>O endereço Bitcoin para designar a mensagem</translation>
+        <source>The slice address to sign the message with</source>
+        <translation>O endereço slice para designar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2671,8 +2671,8 @@ Nota: como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por u
         <translation>Copiar a assinatura atual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço Bitcoin</translation>
+        <source>Sign the message to prove you own this slice address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço slice</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2695,12 +2695,12 @@ Nota: como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por u
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia quebras de linha, espaços, tabulações, etc. exatamente) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>O endereço Bitcoin com que a mensagem foi designada</translation>
+        <source>The slice address the message was signed with</source>
+        <translation>O endereço slice com que a mensagem foi designada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Bitcoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified slice address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço slice especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

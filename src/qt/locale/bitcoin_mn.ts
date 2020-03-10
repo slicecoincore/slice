@@ -223,7 +223,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>Slice</source>
         <translation>Биткойн</translation>
     </message>
     <message>

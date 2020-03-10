@@ -68,8 +68,8 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>alamat-alamat penerimaan</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ini adalah alamat Bitcoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
+        <source>These are your slice addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ini adalah alamat slice anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -162,8 +162,8 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>Mengesahkan enkripsi dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA BITCOIN ANDA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLICE&lt;/b&gt;!</source>
+        <translation>Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA SLICE ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -320,8 +320,8 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>Reindexi blok pada cakera...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Menghantar koin kepada alamat Bitcoin</translation>
+        <source>Send coins to a slice address</source>
+        <translation>Menghantar koin kepada alamat slice</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -364,12 +364,12 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>sulitkan kata laluan milik peribadi anda</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>sahkan mesej bersama alamat bitcoin anda untuk menunjukkan alamat ini anda punya</translation>
+        <source>Sign messages with your slice addresses to prove you own them</source>
+        <translation>sahkan mesej bersama alamat slice anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Bitcoin yang ditentukan</translation>
+        <source>Verify messages to ensure they were signed with specified slice addresses</source>
+        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat slice yang ditentukan</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -389,8 +389,8 @@ Alihkan fail data ke dalam tab semasa</translation>
 </translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Request payments (generates QR codes and bitcoin: URIs)
+        <source>Request payments (generates QR codes and slice: URIs)</source>
+        <translation>Request payments (generates QR codes and slice: URIs)
 </translation>
     </message>
     <message>
@@ -465,8 +465,8 @@ Alihkan fail data ke dalam tab semasa</translation>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Slice</source>
+        <translation>Slice</translation>
     </message>
     <message>
         <source>Error</source>

@@ -66,8 +66,8 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les vostres adreces de Bitcoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
+        <source>These are your slice addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les vostres adreces de slice per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>Confirma el xifratge de la cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Avís: si xifreu la cartera i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SLICE&lt;/b&gt;!</source>
+        <translation>Avís: si xifreu la cartera i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS SLICE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -532,8 +532,8 @@
 <context>
     <name>ModalOverlay</name>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>És possible que les transaccions recents encara no siguin visibles i, per tant, el saldo de la vostra cartera podria ser incorrecte. Aquesta informació serà correcta una vegada que la cartera hagi finalitzat la sincronització amb la xarxa bitcoin, tal com es detalla més avall.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the slice network, as detailed below.</source>
+        <translation>És possible que les transaccions recents encara no siguin visibles i, per tant, el saldo de la vostra cartera podria ser incorrecte. Aquesta informació serà correcta una vegada que la cartera hagi finalitzat la sincronització amb la xarxa slice, tal com es detalla més avall.</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -580,8 +580,8 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al dia. El vostra cartera se sincronitza automàticament amb la xarxa Bitcoin un cop s'ha establert connexió, però aquest proces encara no ha finalitzat.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the slice network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al dia. El vostra cartera se sincronitza automàticament amb la xarxa slice un cop s'ha establert connexió, però aquest proces encara no ha finalitzat.</translation>
     </message>
     </context>
 <context>
