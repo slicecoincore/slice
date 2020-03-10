@@ -9,9 +9,17 @@
 #include <tinyformat.h>
 #include <crypto/common.h>
 
+#define BEGIN(a)            ((char*)&(a))
+#define END(a)              ((char*)&((&(a))[1]))
+
 uint256 CBlockHeader::GetHash() const
 {
     return SerializeHash(*this);
+}
+
+uint256 CBlockHeader::GetPoWHash() const
+{
+    return HashQubit(BEGIN(nVersion), END(nNonce));
 }
 
 std::string CBlock::ToString() const
