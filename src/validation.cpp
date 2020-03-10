@@ -1233,14 +1233,38 @@ bool ReadRawBlockFromDisk(std::vector<uint8_t>& block, const CBlockIndex* pindex
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
-    int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
-    // Force block reward to zero when right shift is undefined.
-    if (halvings >= 64)
-        return 0;
+    CAmount nSubsidy = 0 * COIN;
 
-    CAmount nSubsidy = 50 * COIN;
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
-    nSubsidy >>= halvings;
+    // implement static decay
+    if (nHeight < 2)                                 // setting block 1 reward this way avoids an issue
+        nSubsidy = 10000000 * COIN;                  // between stratum/solo chain initial 'kickstart'
+    if (nHeight > 1 && nHeight <= 10)
+        nSubsidy = 10000 * COIN;
+    if (nHeight > 10 && nHeight <= 5000)
+        nSubsidy = 100 * COIN;
+    if (nHeight > 5000 && nHeight <= 20000)
+        nSubsidy = 50 * COIN;
+    if (nHeight > 20000 && nHeight <= 100000)
+        nSubsidy = 40 * COIN;
+    if (nHeight > 100000 && nHeight <= 200000)
+        nSubsidy = 30 * COIN;
+    if (nHeight > 200000 && nHeight <= 300000)
+        nSubsidy = 20 * COIN;
+    if (nHeight > 300000 && nHeight <= 400000)
+        nSubsidy = 15 * COIN;
+    if (nHeight > 400000 && nHeight <= 500000)
+        nSubsidy = 10 * COIN;
+    if (nHeight > 500000 && nHeight <= 600000)
+        nSubsidy = 9 * COIN;
+    if (nHeight > 600000 && nHeight <= 700000)
+        nSubsidy = 8 * COIN;
+    if (nHeight > 700000 && nHeight <= 800000)
+        nSubsidy = 7 * COIN;
+    if (nHeight > 800000 && nHeight <= 900000)
+        nSubsidy = 6 * COIN;
+    if (nHeight > 900000 && nHeight <= 10000000)
+        nSubsidy = 5 * COIN;
+
     return nSubsidy;
 }
 
