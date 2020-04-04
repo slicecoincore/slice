@@ -33,5 +33,6 @@ information or see https://opensource.org/licenses/MIT.
 > - Block Timings: (24h Average) 6 min  
 > - Block maturity confirmations: 6 Blocks  
 > - Tx Fee: 0.001  
-> - Tx confirms in: 3 blocks  
+> - Tx confirms in: 3 blocks
+> - ^[s][a-km-zA-HJ-NP-Z0-9]{26,34}$  <<< Regex
 
