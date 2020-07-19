@@ -34,5 +34,7 @@ information or see https://opensource.org/licenses/MIT.
 > - Block maturity confirmations: 6 Blocks  
 > - Tx Fee: 0.001  
 > - Tx confirms in: 3 blocks
+> - Address prefix: 125
+> - Secret Prefix: 115
 > - ^[s][a-km-zA-HJ-NP-Z0-9]{26,34}$  <<< Regex
 
